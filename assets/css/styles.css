@@ -389,3 +389,12 @@ a.practice:hover .more { color: var(--accent-dark); }
 .mb-0 { margin-bottom: 0; }
 .center { text-align: center; }
 .visually-hidden { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* Larger tap targets on touch screens */
+@media (max-width: 820px) {
+  .site-footer li { margin-bottom: 0; }
+  .site-footer li a, .site-footer p a { display: inline-block; padding: 6px 0; }
+  .service-index { gap: 4px 20px; }
+  .service-index a { display: inline-block; padding: 8px 0 4px; }
+  .link-arrow { padding: 8px 0 4px; }
+}
